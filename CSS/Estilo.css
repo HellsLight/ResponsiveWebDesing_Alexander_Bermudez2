@@ -1,9 +1,44 @@
 * {
   background-color: #5b7989
 }
- #Encabezado{
-  text-align: left;
-  color: white;
-  font-size: 30px;
+.Contenedor{
+  color: White;
+  border: solid black;
+  border-radius: 10px 10px 0px 0px;
   text-shadow: 2px 2px 0px #02010a;
+  font-style: italic;
+  display: flex;
+  flex-flow: row wrap;
+}
+.Encabezado{
+  text-align: left;
+  font-size:70px;
+  flex-grow: 5
+}
+.Enlace1{
+  text-align: right;
+  font-size: 30px;
+  text-decoration: underline;
+  order: 1;
+  flex-grow: 0.5;
+  margin-top:25px
+
+}
+.Enlace2{
+  text-align: right;
+  font-size: 30px;
+  text-decoration: underline;
+  order: 2;
+  flex-grow: 0.5;
+  margin-top:25px
+
+}
+.Enlace3{
+  text-align: right;
+  font-size: 30px;
+  text-decoration: underline;
+  order: 3;
+  flex-grow: 0.5;
+  margin-top:25px
+
 }
