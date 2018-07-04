@@ -1,9 +1,12 @@
 * {
-  background-color: #5b7989
+  background-color: #5b7989;
+  margin: 0.5px;
+  padding: 0px
 }
 .Contenedor{
   color: White;
   border: solid black;
+  padding-bottom: : 10px;
   border-radius: 10px 10px 0px 0px;
   text-shadow: 2px 2px 0px #02010a;
   font-style: italic;
@@ -41,4 +44,17 @@
   flex-grow: 0.5;
   margin-top:25px
 
+}
+a{
+  color: white;
+  style: underline
+}
+.Principal{
+  background-color: #82c3a6;
+  padding: 10px;
+}
+img[src="Fotografias/Atardecer.jpg"]{
+  width:1000px;
+  display: block;
+  margin: auto;
 }
